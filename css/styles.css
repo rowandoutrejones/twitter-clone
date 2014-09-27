@@ -147,7 +147,18 @@ body {
 	min-height: 60px;
 	border-radius: 6px;
 }
-
+	.tweet:hover .tweet-actions{
+		display: block;
+		opacity: 1.0;
+	}
+	.tweet:hover .tweet-actions li{
+		color: #2FC2EF;
+	}
+	.tweet:hover .icon {
+		color: #2FC2EF;
+		background-color: #2FC2EF;
+	}
+	
 	.tweet .avatar {
 		float: left;
 		margin-right: 10px;
@@ -168,6 +179,7 @@ body {
 
 	.tweet-actions {
 		text-align: right;
+		opacity: 0.2;
 	}
 		.tweet-actions ul {
 			list-style-type: none;
@@ -175,14 +187,14 @@ body {
 			.tweet-actions li {
 				display: inline-block;
 				font-size: 12px;
-				color: #2FC2EF;
+				color: #999;
 				cursor: pointer;
 				margin-right: 2px;
 			}
 
 	.icon {
-		color: #2FC2EF;
-		background-color: #2FC2EF;
+		color: #999;
+		background-color: #999;
 		width: 12px;
 		height: 13px;
 		display: inline-block;
