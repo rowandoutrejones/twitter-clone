@@ -270,5 +270,9 @@ body {
 				top: 0;
 				left: 0;
 			}
+		.tweet .timeHosted {
+			font-size: 12px;
+			color: #999;
+		}
 
 
